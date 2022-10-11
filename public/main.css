@@ -1,0 +1,48 @@
+/* Navbar styling */
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #d1d1d188;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.tabs{
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    color: #2b3236;
+    font-size: 2vmax;
+    transition: all ease-in-out 500ms;
+}
+.tabs:hover{
+    background-color:#d1d1d1d1;
+}
+
+li a {
+    text-decoration: none;
+}
+
+#logo {
+    height: 5vmax;
+    padding: 0.2vmax;
+}
+
+/* Main content */
+body{
+    margin: 0;
+    background-color:  	#435274;
+    color: #d5dfe7;
+    font-family: "Comfortaa", sans-serif;
+    height: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
