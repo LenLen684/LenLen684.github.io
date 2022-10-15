@@ -8,7 +8,7 @@ font-family: 'Signika Negative', sans-serif;
 nav{
     display: flex;
     flex-direction: row;
-    background-color: #1f0019c0;
+    background-image: linear-gradient(#2c0331cb, #1f0019c0);
     justify-content: space-between;
     align-items: center;
     height: 5vmax;
@@ -76,8 +76,24 @@ main{
     margin-top: 30px;
 }
 
-.content{
+h1 {
+    width: 100%; 
+    text-align: center; 
+    border-top: 1px solid #1f0019c0;
+    border-bottom: 1px dashed #2c0331cb;
+    line-height: 0.1em;
+    margin: 20px 0 30px; 
+}
 
+h1 span { 
+    background:#eeeeee; 
+    padding:0 12px; 
+}
+
+.content{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 2vmax;
 }
 
 p{
