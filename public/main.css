@@ -1,48 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300&display=swap');
+/* 
+font-family: 'Nunito', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+*/
+
 /* Navbar styling */
 nav{
     display: flex;
     flex-direction: row;
-    background-color: #d1d1d188;
+    background-color: #1f0019c0;
     justify-content: space-between;
     align-items: center;
+    height: 5vmax;
 }
+
 nav ul {
     display: flex;
     list-style: none;
     text-decoration: none;
 }
 
+#logo{
+    height: 5vmax;
+    vertical-align: middle;
+}
+
 .tabs{
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
-    color: #2b3236;
-    font-size: 2vmax;
+    color: #a2a9cfd2;
+    font-size: 2.3vmax;
     transition: all ease-in-out 500ms;
+    padding: 1vmax;
 }
+
 .tabs:hover{
-    background-color:#d1d1d1d1;
+    background-color:#db846e96;
+    color: #272727d2;
 }
 
-li a {
+#index{
+    text-align: center;
     text-decoration: none;
+    vertical-align: middle;
+    color: #a2a9cfd2;
+    font-size: 2.3vmax;
+    transition: all ease-in-out 500ms;
+    padding-right: 1vmax;
 }
 
-#logo {
-    height: 5vmax;
-    padding: 0.2vmax;
+#index:hover{
+    background-color:#da988896;
+    color: #272727d2;
 }
+
 
 /* Main content */
 body{
     margin: 0;
-    background-color:  	#435274;
-    color: #d5dfe7;
-    font-family: "Comfortaa", sans-serif;
+    background-color: #eeeeee;
+    color: #757575;
+    font-family: 'Nunito', sans-serif;
     height: 100%;
+    align-items: center;
 }
+
 main{
+    border-top: #757575;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
 }
+
+.content{
+
+}
+
+p{
+    font-family: 'Signika Negative', sans-serif;
+}
+
+
+/* Footer */
+/* #top{
+    position: absolute;
+    left: 50%;
+    margin-left: -59px;
+} */
