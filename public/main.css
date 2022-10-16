@@ -8,7 +8,7 @@ font-family: 'Signika Negative', sans-serif;
 nav{
     display: flex;
     flex-direction: row;
-    background-image: linear-gradient(#2c0331cb, #1f0019c0);
+    background-image: linear-gradient(90deg,#6750A5 65%, #BE73B2 65%);
     justify-content: space-between;
     align-items: center;
     height: 5vmax;
@@ -25,34 +25,35 @@ nav ul {
     vertical-align: middle;
 }
 
+#index{
+    padding: 0 1vmax 0 0;
+}
+
 .nav-tabs{
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
-    color: #a2a9cfd2;
     font-size: 2.3vmax;
-    transition: all ease-in-out 450ms;
+    transition: all ease-in-out 400ms;
     padding: 1vmax;
 }
 
-.nav-tabs:hover{
-    background-color:#db846e96;
-    color: #220f0ed2;
+.social{
+    color: #303153;
 }
 
-#index{
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    color: #a2a9cfd2;
-    font-size: 2.3vmax;
-    transition: all ease-in-out 500ms;
-    padding-right: 1vmax;
+.social:hover{
+    background-color:#6750a58c;
+    color: #a2a9cf;
 }
 
-#index:hover{
-    background-color:#da988896;
-    color: #220f0ed2;
+.local {
+    color: #a2a9cf;
+}
+
+.local:hover{
+    background-color:#be73b16b;
+    color: #303153;
 }
 
 .hamburger {
@@ -71,8 +72,20 @@ nav ul {
 
 
 /* Main content */
+*{
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
 body{
     margin: 0;
+    padding: 0;
     background-color: #eeeeee;
     color: #757575;
     font-family: 'Nunito', sans-serif;
@@ -138,13 +151,18 @@ p{
     margin: 3vmax;
 }
 
-.index{
+.index_main{
     margin: 0px;
-    background-image: linear-gradient(90deg,#6750a5cb 70%, #5c3e7ec0 60%);
+    background-image: linear-gradient(90deg,#6750A5 65%, #BE73B2 65%);
     height: 100%;
     width: 100%;
     padding: 4vmax 0 7vmax 0;
 }
+
+/* .index_body{
+    height: 100vh;
+    width: 100vw;
+} */
 
 
 /* Pictures */
@@ -152,6 +170,7 @@ p{
 .center_pic{
     height: 25vmax;
     border-radius: 4px;
+    box-shadow:  -15px 15px #BE73B2, 15px -15px #6750A5;
 }
 
 
