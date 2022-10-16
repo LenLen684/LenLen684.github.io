@@ -91,7 +91,7 @@ main{
     margin-top: 30px;
 }
 
-h1 {
+.top_header {
     width: 100%; 
     text-align: center; 
     border-top: 1px solid #1f0019c0;
@@ -100,10 +100,22 @@ h1 {
     margin: 20px 0 30px; 
 }
 
-h1 span { 
+.top_header span { 
     background:#eeeeee; 
     padding:0 12px;
 }
+
+.name{
+    font-size: xx-large;
+}
+
+p{
+    font-family: 'Signika Negative', sans-serif;
+}
+
+
+
+/* Content boxes */
 
 .content{
     color: #333333;
@@ -113,12 +125,41 @@ h1 span {
     box-shadow: 0 2px 4px  rgb(0 0 0 / 20%);
 }
 
-p{
-    font-family: 'Signika Negative', sans-serif;
+.content_two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.small_box {
+    width: 30%;
+    align-self: flex-start;
+    margin: 3vmax;
+}
+
+.index{
+    margin: 0px;
+    background-image: linear-gradient(90deg,#6750a5cb 70%, #5c3e7ec0 60%);
+    height: 100%;
+    width: 100%;
+    padding: 4vmax 0 7vmax 0;
+}
+
+
+/* Pictures */
+
+.center_pic{
+    height: 25vmax;
+    border-radius: 4px;
 }
 
 
 /* Footer */
+
+footer{
+    display: none;
+}
 /* #top{
     position: absolute;
     left: 50%;
