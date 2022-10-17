@@ -10,35 +10,31 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="msapplication-config" content="/public/favicon/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link rel='stylesheet' href='public/main.css'>
+        <script src="style.js"></script>
 
         <title>Lene Lefiti | Software Developer</title>
     </head>
     <body>
-        <nav>
-            <a href="index.html" id="index" class="nav-tabs local">
+        <nav id="full-nav">
+            <a href="index.html" class="nav-tabs local index-link">
                 <img src="public/logo_dark.png" sizes="180x180" alt="Logo" id="logo">
-                Home
             </a>
-            <ul id="tablist">
+            <a href="javascript:void(0);" id="mobile-nav" onclick="showMobileNav()">Menu</a>
+            <ul class="nav-group">
                 <li><a href="about.html" class="nav-tabs local">About</a></li>
                 <li><a href="projects.html" class="nav-tabs local">Projects</a></li>
                 <li><a href="contact.html" class="nav-tabs local">Contact</a></li>
             </ul>
-            <ul>
+            <ul class="nav-group">
                 <li><a href="https://github.com/LenLen684" target="_blank" class="nav-tabs social">Github</a></li>
                 <li><a href="https://www.linkedin.com/in/llefiti/" target="_blank" class="nav-tabs social">LinkedIn</a></li>
             </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
         </nav>
         <!-- Main content -->
         <main>
-            <h1 class="top_header"><span>Under Construction</span></h1>
+            <h1 class="top-header"><span>Under Construction</span></h1>
             <div class="content">
                 <!-- About me -->
                 <!-- Projects list -->

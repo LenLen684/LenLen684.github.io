@@ -10,46 +10,42 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="msapplication-config" content="/public/favicon/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link rel='stylesheet' href='public/main.css'>
+        <script src="style.js"></script>
 
         <title>Lene Lefiti | Software Developer</title>
     </head>
     <body>
-        <nav>
-            <a href="index.html" id="index" class="nav-tabs local">
+        <nav id="full-nav">
+            <a href="index.html" class="nav-tabs local index-link">
                 <img src="public/logo_dark.png" sizes="180x180" alt="Logo" id="logo">
-                Home
             </a>
-            <ul id="tablist">
+            <a href="javascript:void(0);" id="mobile-nav" onclick="showMobileNav()">Menu</a>
+            <ul class="nav-group">
                 <li><a href="about.html" class="nav-tabs local">About</a></li>
                 <li><a href="projects.html" class="nav-tabs local">Projects</a></li>
                 <li><a href="contact.html" class="nav-tabs local">Contact</a></li>
             </ul>
-            <ul>
+            <ul class="nav-group">
                 <li><a href="https://github.com/LenLen684" target="_blank" class="nav-tabs social">Github</a></li>
                 <li><a href="https://www.linkedin.com/in/llefiti/" target="_blank" class="nav-tabs social">LinkedIn</a></li>
             </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
         </nav>
         <!-- Main content -->
         <main>
             <h1 class="top_header"><span>About me</span></h1>
-            <div class="content_two">
-                <div class="small_box">
+            <div class="content-two">
+                <div class="small-box">
                     <h4>A programmer</h4>
-                    <p>
-                        Starting in 2018, I learned how to code and I've been building my skills as I go.
-                    </p>
-                    <p>Here's what they look like:</p>
+                    <p>I'm a Neumont College Alumn with a Bachelors in Computer Science</p>
+                    <p>Been coding since 2018, I've been building my skills as I go.</p>
+                    <p>Here's what those skills look like:</p>
                 </div>
-                <div class="midline_vertical"></div>
-                <div class="small_box">
+                <div class="midline-vertical"></div>
+                <div class="small-box">
                     <h4>A person</h4>
+                    <p>Coming from American Samoa, my greatest supporters helped me transition to college and then to the workforce.</p>
                     <p>I'm a simple person, a big softie who tries his best.</p>
                     <p>On my free time you can find me playing video games, cooking, or drawing.</p>
                 </div>
