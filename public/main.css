@@ -137,6 +137,12 @@ p{
     margin: 20px; 
 }
 
+.midline-horizontal {
+    border-top: 1px solid #b1b1b1;
+    line-height: 0.1em;
+    margin: 20px; 
+}
+
 .small-box {
     width: 30%;
     align-self: flex-start;
